@@ -1,0 +1,148 @@
+html {
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img {
+        height: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-image: url("bg3.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1030;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.ULmoto li {
+    display: inline-block;
+    margin: 20px;
+}
+.ULmoto li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Allerta';
+    text-align: center;
+    padding: 8px;
+}
+.ULmoto li a.active {
+    color: red;
+    border-bottom: 3px solid;
+
+}
+a:hover {
+    background-color: red;
+    border-radius: 3px;
+}
+.PL {
+    font-size: 40px;
+    color: white;
+    margin-top: 200px;
+    font-family: 'Allerta';
+}
+.PL p {
+    color: red;
+    font-size: 30px;
+}
+@media (max-width: 952px)
+{
+    ul li a {
+        font-size: 18px;
+    }
+}
+.char {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: 'Allerta';
+    /* margin: 0 300px; */
+    max-width: 700px;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: 'Allerta';
+    margin: 50px 200px 0px 200px;
+}
+
+.main-bg{
+    background-color: rgb(3, 3, 53)
+}
+.column-par{
+    margin: 100px 0;
+}
+.column-par img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+.column-par p{
+    margin: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+}
+.column-par .row{
+    margin: 60px 0;
+}
+.column-par .even-row h1{
+    text-align: right;
+}
+
+ .column-par .even-row p{
+    text-align: right;
+}
+.boxes h1{
+    text-align: center;
+    color: red;
+    font-family: 'Allerta';
+    font-size: 40px;
+}
+ .boxes .col-md-6 , .boxes .col-md-3 {
+    background-color: white;
+    border: 10px solid rgb(3, 3, 53);
+    margin-top: 15px;
+
+}
+.ff h1 {
+    margin-top: 50px;   
+}
+.ff .form-group {
+    margin: 20px auto;
+    width: 600px;
+}
+.form-group input::placeholder{
+    color: red;
+}
+#name , #what{
+    background-color:rgb(3, 3, 53);
+    border: 2px solid red;
+}
+#what {
+    width: 600px;
+    height: 300px;
+}
+.input-message textarea::placeholder{
+    color: red;
+}
